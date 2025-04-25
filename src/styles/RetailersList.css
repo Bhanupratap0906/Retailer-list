@@ -1,0 +1,33 @@
+.retailers-list {
+  padding-bottom: 24px;
+}
+
+.location-group {
+  margin-bottom: 24px;
+}
+
+.location-title {
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.retailers-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.retailers-loading, 
+.retailers-error, 
+.retailers-empty {
+  text-align: center;
+  padding: 32px 16px;
+  color: #666;
+  font-size: 16px;
+}
+
+.retailers-error {
+  color: #e53935;
+} 

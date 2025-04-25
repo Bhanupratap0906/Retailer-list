@@ -1,0 +1,44 @@
+.location-filter {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.location-filter label {
+  margin-right: 12px;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.location-filter select {
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  color: var(--text-color);
+  min-width: 180px;
+  cursor: pointer;
+}
+
+.location-filter select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
+}
+
+@media (max-width: 480px) {
+  .location-filter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .location-filter label {
+    margin-bottom: 8px;
+  }
+  
+  .location-filter select {
+    width: 100%;
+  }
+} 

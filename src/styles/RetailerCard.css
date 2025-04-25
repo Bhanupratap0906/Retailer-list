@@ -1,0 +1,88 @@
+.retailer-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.retailer-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.retailer-info {
+  flex: 1;
+}
+
+.retailer-info h3 {
+  margin-bottom: 8px;
+  color: var(--text-color);
+  font-size: 18px;
+}
+
+.retailer-category {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: white;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.retailer-location {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.retailer-distance {
+  font-size: 12px;
+  color: #888;
+}
+
+.whatsapp-button {
+  background-color: var(--whatsapp-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 16px;
+  white-space: nowrap;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
+
+.whatsapp-icon {
+  margin-right: 8px;
+  fill: white;
+}
+
+@media (max-width: 480px) {
+  .retailer-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .retailer-info {
+    margin-bottom: 12px;
+    width: 100%;
+  }
+
+  .whatsapp-button {
+    margin-left: 0;
+    align-self: flex-end;
+  }
+} 
