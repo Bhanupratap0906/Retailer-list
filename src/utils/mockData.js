@@ -5,7 +5,7 @@ const retailers = [
     category: "Grocery",
     location: "Downtown",
     address: "123 Main St, Downtown",
-    phoneNumber: "1234567890",
+    phoneNumber: "9825963718",
     distance: 0.5
   },
   {
